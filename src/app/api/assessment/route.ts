@@ -81,6 +81,7 @@ export async function PUT(req: Request) {
     }
 
     const {
+      id,
       name,
       careerProfile,
       employmentTile,
@@ -89,15 +90,15 @@ export async function PUT(req: Request) {
       questions,
     } = parseResult.data;
 
-    const note = await prisma.profileInfo.findUnique({ where: { id } });
+    const assessment = await prisma.profileInfo.findUnique({ where: { id } });
 
-    if (!note) {
-      return Response.json({ error: "Note not found" }, { status: 404 });
+    if (!assessment) {
+      return Response.json({ error: "Assessment not found" }, { status: 404 });
     }
 
     const { userId } = auth();
 
-    if (!userId || userId !== note.userId) {
+    if (!userId || userId !== assessment.userId) {
       return Response.json({ error: "Unauthorized" }, { status: 401 });
     }
 
@@ -155,15 +156,15 @@ export async function DELETE(req: Request) {
 
     const { id } = parseResult.data;
 
-    const note = await prisma.profileInfo.findUnique({ where: { id } });
+    const assessment = await prisma.profileInfo.findUnique({ where: { id } });
 
-    if (!note) {
+    if (!assessment) {
       return Response.json({ error: "Event not found" }, { status: 404 });
     }
 
     const { userId } = auth();
 
-    if (!userId || userId !== note.userId) {
+    if (!userId || userId !== assessment.userId) {
       return Response.json({ error: "Unauthorized" }, { status: 401 });
     }
 
