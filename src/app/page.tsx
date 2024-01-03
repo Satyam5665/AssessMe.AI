@@ -11,7 +11,7 @@ export default function Home() {
         <div className='flex px-8 flex-col items-center pt-10 sm:pt-26'>
           <div className='flex text-white p-6 sm:p-0 pb-0 mb-10 rounded-xl gap-8 flex-col max-w-5xl'>
             <div className='text-center font-semibold text-3xl md:text-5xl xl:text-6xl'>
-              <div className='flex flex-col text-center'>Access your <span className=' text-purple-900 dark:text-purple-300'><Typewriter/></span></div>
+              <div className='flex flex-col text-center'>Assess your <span className=' text-purple-900 dark:text-purple-300'><Typewriter/></span></div>
               <div>With AI-Powered Interview Assessment.</div>
             </div>
             <h2 className='text-center text-xl'>              
@@ -19,7 +19,7 @@ export default function Home() {
             </h2>
             <div className='text-center'>
             <Button className='p-6 shadow-md shadow-black border-none bg-gradient-to-br from-violet-500 to-orange-300 text-white rounded-xl' size={'lg'} asChild>
-              <Link href={'/dashboard'}>Let's Access <ArrowRight className='ml-1 w-5 h-5'/></Link>
+              <Link href={'/dashboard'}>Let's Assess <ArrowRight className='ml-1 w-5 h-5'/></Link>
             </Button>
             </div>
           </div>
@@ -40,7 +40,7 @@ export default function Home() {
           </div> */}
         </div>
         <div className='flex px-4 pt-1 bg-white/20 text-white justify-between gap-4 flex-row items-center text-primary h-14 absolute bottom-0 w-full'>
-        <h2 className='text-white'>© 2023 AccessMe.Ai</h2>
+        <h2 className='text-white'>© 2023 AssessMe.Ai</h2>
         <div className='flex flex-row gap-4 justify-center items-center'>
           <Link href={'https://github.com/sumionochi'}>
             <Github/>

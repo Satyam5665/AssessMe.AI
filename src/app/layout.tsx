@@ -9,8 +9,8 @@ import {ClerkProvider} from '@clerk/nextjs'
 const lexend = Lexend({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'AccessMe.AI',
-  description: 'An Interview Style Assessment Preparation',
+  title: 'AssessMe.AI',
+  description: 'An Interview Style Assessment Preparation'
 }
 
 export default function RootLayout({
