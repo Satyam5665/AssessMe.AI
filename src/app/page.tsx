@@ -19,7 +19,7 @@ export default function Home() {
             </h2>
             <div className='text-center'>
             <Button className='p-6 shadow-md shadow-black border-none bg-gradient-to-br from-violet-500 to-orange-300 text-white rounded-xl' size={'lg'} asChild>
-              <Link href={'/profileInfo'}>Let's Access <ArrowRight className='ml-1 w-5 h-5'/></Link>
+              <Link href={'/dashboard'}>Let's Access <ArrowRight className='ml-1 w-5 h-5'/></Link>
             </Button>
             </div>
           </div>
