@@ -13,7 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "@lottiefiles/react-lottie-player": "^3.5.3",
     "@mui/icons-material": "^5.14.18",
-    "@mui/material": "^5.14.18",
+    "@mui/material": "^5.15.3",
     "@mui/x-charts": "^6.18.3",
     "ai": "^2.2.27",
     "next": "14.0.2",
