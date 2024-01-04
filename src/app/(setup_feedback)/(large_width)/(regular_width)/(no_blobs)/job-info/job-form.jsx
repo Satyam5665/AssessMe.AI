@@ -3,9 +3,9 @@
 import { Grid, TextField, Button, Box, Typography } from '@mui/material';
 import MultipleSelectChip from './components/multiselect';
 import { useContext, useState } from 'react';
-import { JobContext } from '../../../../providers/JobProvider';
+import { JobContext } from '../../../../../providers/JobProvider';
 import { useRouter } from 'next/navigation';
-import BoxWrapper from '../../../../shared/BoxWrapper';
+import BoxWrapper from '../../../../../shared/BoxWrapper';
 import ArrowForward from '@mui/icons-material/ChevronRightRounded';
 
 export default function JobForm() {
