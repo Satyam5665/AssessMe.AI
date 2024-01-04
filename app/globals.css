@@ -28,51 +28,6 @@ body {
   height: var(--uib-half-size);
   overflow: hidden;
   isolation: isolate;
-
-  &:first-child {
-    top: 8.25%;
-    left: 8.25%;
-    border-radius: 50% 50% calc(var(--uib-size) / 15);
-  }
-
-  &:last-child {
-    bottom: 8.25%;
-    right: 8.25%;
-    transform: rotate(180deg);
-    align-self: flex-end;
-    border-radius: 50% 50% calc(var(--uib-size) / 15);
-
-    &::after {
-      animation-delay: calc(var(--uib-speed) * -1);
-    }
-  }
-
-  &::before {
-    content: '';
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--uib-color);
-    opacity: var(--uib-bg-opacity);
-    transition: background-color 0.3s ease;
-  }
-
-  &::after {
-    content: '';
-    position: relative;
-    z-index: 1;
-    display: block;
-    background-color: var(--uib-color);
-    height: 100%;
-    transform: rotate(45deg) translate(-3%, 50%) scaleX(1.2);
-    width: 100%;
-    transform-origin: bottom right;
-    border-radius: 0 0 calc(var(--uib-size) / 20) 0;
-    animation: flow calc(var(--uib-speed) * 2) linear infinite both;
-    transition: background-color 0.3s ease;
-  }
 }
 
 @keyframes flow {
