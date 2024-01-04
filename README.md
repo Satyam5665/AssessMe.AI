@@ -1,6 +1,6 @@
-# AI Interviewer
+# AssessMe.AI : An AI Interview Style Assessment + Full Length Video Explaination
 
-[![Watch the Video](https://github.com/sumionochi/AssessMe.AI/raw/main/assets/89721628/5f1af3e9-6267-4113-898a-3b1c50f529de.png)](https://youtu.be/W1Qplc6YmiA)
+[Watch the Video](https://github.com/sumionochi/AssessMe.AI/assets/89721628/97d46930-5fca-4852-b575-ac74705299a5)
 
 ## Introduction
 
@@ -46,5 +46,3 @@ This project will soon be under the license of [MIT License](LICENSE).
 - Special thanks to WisperAI for its powerful language models that enhance the functionality of AI Interviewer.
 
 ---
-
-Feel free to customize the sections based on your specific project details and needs.
