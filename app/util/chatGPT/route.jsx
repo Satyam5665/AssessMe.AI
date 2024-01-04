@@ -3,8 +3,6 @@ import { OpenAIStream, StreamingTextResponse } from 'ai';
 
 const openai = new OpenAI();
 
-export const runtime = 'edge';
-
 const firstMessageContext =
   "You are an interviewer interviewing a candidate for the role of a *insert_job_here* at your company *insert_company_here*. The candidate's name is *insert_name_here*. Speak only from the perspective of the interviewer. Do not include the time of day. Welcome the candidate to the interview and ask them the first question of: ";
 
