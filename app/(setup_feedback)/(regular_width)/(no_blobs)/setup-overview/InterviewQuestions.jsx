@@ -2,7 +2,7 @@
 
 import { List, ListItem, ListItemText } from '@mui/material';
 import React, { useContext } from 'react';
-import { QuestionContext } from '../../../../../providers/QuestionProvider';
+import { QuestionContext } from '../../../../providers/QuestionProvider';
 
 export default function InterviewQuestions() {
   const [questions] = useContext(QuestionContext);

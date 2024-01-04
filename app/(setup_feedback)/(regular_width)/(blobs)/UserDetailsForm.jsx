@@ -2,7 +2,7 @@
 
 import { TextField, Box, Button } from '@mui/material';
 import { useState, useContext } from 'react';
-import { UserDetailsContext } from '../../../../providers/UserDetailsProvider';
+import { UserDetailsContext } from '../../../providers/UserDetailsProvider';
 import { useRouter } from 'next/navigation';
 import ArrowForward from '@mui/icons-material/ChevronRightRounded';
 

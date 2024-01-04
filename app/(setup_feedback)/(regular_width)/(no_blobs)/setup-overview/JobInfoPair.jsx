@@ -2,7 +2,7 @@
 
 import { Box, Typography } from '@mui/material';
 import React, { useContext } from 'react';
-import { JobContext } from '../../../../../providers/JobProvider';
+import { JobContext } from '../../../../providers/JobProvider';
 
 export default function JobInfoPair({ fieldName, jobField }) {
   const [jobInfo] = useContext(JobContext);

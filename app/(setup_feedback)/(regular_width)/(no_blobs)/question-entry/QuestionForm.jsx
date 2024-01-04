@@ -22,9 +22,9 @@ import AutoAwesomeRoundedIcon from '@mui/icons-material/AutoAwesomeRounded';
 import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
 
 import { useContext, useState, useRef, useEffect } from 'react';
-import { QuestionContext } from '../../../../../providers/QuestionProvider';
-import { JobContext } from '../../../../../providers/JobProvider';
-import BoxWrapper from '../../../../../shared/BoxWrapper';
+import { QuestionContext } from '../../../../providers/QuestionProvider';
+import { JobContext } from '../../../../providers/JobProvider';
+import BoxWrapper from '../../../../shared/BoxWrapper';
 import { useRouter } from 'next/navigation';
 import { useCompletion } from 'ai/react';
 
