@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AI Interviewer
+
+[![Watch the Video](https://github.com/sumionochi/AssessMe.AI/raw/main/assets/89721628/5f1af3e9-6267-4113-898a-3b1c50f529de.png)](https://youtu.be/W1Qplc6YmiA)
+
+## Introduction
+
+Navigating the career landscape can be challenging, especially for students entering the job market. The AI Interviewer is a solo-developed web application designed to empower users in honing their interview skills, boosting confidence for success in competitive job markets.
+
+![AI Interviewer](https://devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fedb2de3dddac4e138dbccad4dbe629dc%2Fprojects%2F4b744588f1464865996fb985cb219480%2Face16031-44ca-446c-8135-c68a44e50771.png&w=1440&q=75)
+
+![AI Interviewer Screenshot](https://assets.devfolio.co/hackathons/edb2de3dddac4e138dbccad4dbe629dc/projects/4b744588f1464865996fb985cb219480/3884d770-c020-4ddb-b57f-757778a9488e.png)
+
+![AI Interviewer](https://assets.devfolio.co/hackathons/edb2de3dddac4e138dbccad4dbe629dc/projects/4b744588f1464865996fb985cb219480/04734942-6b47-41d0-a77b-6d3766c6b054.png)
+
+## Functionality
+
+- **Realistic Interview Simulation:** Utilize artificial intelligence and natural language processing to simulate authentic interview experiences.
+- **User-Friendly Interface:** Input job details, choose specific questions, or leverage the AI-driven question generator for a seamless experience.
+- **Detailed Feedback:** Receive comprehensive post-interview feedback highlighting strengths and areas for improvement.
+
+## Development Stack
+
+- **Frontend:** Developed using Next.js, a full-stack web development framework, and React.js for a responsive and clean user interface.
+- **UI Components:** MaterialUI library enhances the aesthetic appeal and responsiveness of the application.
+- **AI and NLP:** Powered by OpenAI's API, incorporating GPT-3.5, Whisper, and TTS-1 models.
+- **Deployment:** Hosted on Vercel for efficient deployment and scalability.
+
+![AI Interviewer](https://assets.devfolio.co/hackathons/edb2de3dddac4e138dbccad4dbe629dc/projects/4b744588f1464865996fb985cb219480/942c6102-b5c8-4be9-9b2f-877ca0b5d0b0.png)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository: `git clone https://github.com/your-username/assessme.ai`
+2. Install dependencies: `npm install`
+3. Run the application: `npm start`
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Contributions
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contributions are welcome! If you have ideas for improvements or feature requests, please open an issue or submit a pull request.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## License
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project will soon be under the license of [MIT License](LICENSE).
 
-## Learn More
+## Acknowledgments
 
-To learn more about Next.js, take a look at the following resources:
+- Special thanks to WisperAI for its powerful language models that enhance the functionality of AI Interviewer.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to customize the sections based on your specific project details and needs.
