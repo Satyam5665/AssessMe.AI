@@ -1,7 +1,10 @@
 # AssessMe.AI : An AI Interview Style Assessment + Full Length Video Explaination + Interview Video
 
+
+Full Length Explaination 
 [Watch the Video](https://github.com/sumionochi/AssessMe.AI/assets/89721628/97d46930-5fca-4852-b575-ac74705299a5)
 
+Interview Demo
 [Watch the Video](https://github.com/sumionochi/AssessMe.AI/assets/89721628/0a7cc9f1-6688-434d-bc6a-6a2698c6d271)
 
 ## Introduction
