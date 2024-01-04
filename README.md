@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Navigating the career landscape can be challenging, especially for students entering the job market. The AI Interviewer is a solo-developed web application designed to empower users in honing their interview skills, boosting confidence for success in competitive job markets.
+Navigating the career landscape can be challenging, especially for students entering the job market. The AI Interview Style Assessment is a solo-developed web application designed to empower users in honing their interview skills, boosting confidence for success in competitive job markets.
 
 ![AI Interviewer](https://devfolio.co/_next/image?url=https%3A%2F%2Fassets.devfolio.co%2Fhackathons%2Fedb2de3dddac4e138dbccad4dbe629dc%2Fprojects%2F4b744588f1464865996fb985cb219480%2Face16031-44ca-446c-8135-c68a44e50771.png&w=1440&q=75)
 
