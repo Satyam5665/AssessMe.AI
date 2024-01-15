@@ -39,15 +39,6 @@ Navigating the career landscape can be challenging, especially for students ente
 1. Clone the repository: `git clone https://github.com/your-username/assessme.ai`
 2. Install dependencies: `npm install`
 3. Run the application: `npm start`
-
-## Contributions
-
-Contributions are welcome! If you have ideas for improvements or feature requests, please open an issue or submit a pull request.
-
-## License
-
-This project will soon be under the license of [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - Special thanks to WisperAI for its powerful language models that enhance the functionality of AI Interviewer.
